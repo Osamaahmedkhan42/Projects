@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sylani</title>
+	<style type="text/css">
+		div{
+			padding-bottom: 20px
+		}
+		div.courses{
+			vertical-align: middle;
+			font-size: 12px
+		}
+		fieldset{
+			background-color: purple;
+		}
+		h1{
+			text-decoration: underline;
+			text-align: center;
+			color: rgb(104,90,204);
+		}
+
+		.smalltext{
+			font-size: 12px;
+		}
+		
+		.labels{
+			
+			display: inline-block;
+			width: 15%;
+			float: left;
+			min-width: 14%;
+			max-width: 15%;
+
+
+		}
+		.fields{
+			
+			display: inline-block;
+			width: 	85%;
+			float: left;
+			min-width: 84%;
+			max-width: 85%;
+
+
+		}
+		.extra{
+			font-size: 12px
+		}
+		
+
+
+	</style>
+
+
+</head>
+<body>
+	<p style="text-align: center; margin-bottom: 0px"><img src="sylani.jpg" height="200" width="400" ></p>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<fieldset>
+	<form action="page2.html">
+		
+	
+		<div class="labels">
+			FIRST NAME
+		</div>
+		
+		<div class="fields">
+			<input type="text" name="name_first" maxlength="30" placeholder="Enter first name"><span class="extra">(max 30 character a-z and A-Z)</span>
+		</div>
+		
+		<div class="labels">LAST NAME
+		</div>
+		<div class="fields">
+			<input type="text" name="name_last" maxlength="30" placeholder="Enter last name"><span class="extra">(max 30 character a-z and A-Z)</span>
+		</div>
+
+		<div class="labels">DATE OF BIRTH
+		</div>
+		<div class="fields">	
+			<input type="date" name="date">
+
+		</div>
+		<div class="labels">EMAIL ID 
+			</div>
+		<div class="fields">
+			<input type="email" name="email" placeholder="Enter your email">
+		</div>
+
+
+		<div class="labels">Number
+		
+		</div>
+		<div class="fields">
+			<input type="text" name="phone" placeholder="Enter your mobile number"><span class="extra">(10 digit number)</span>
+		</div>
+			
+	
+		<div class="labels">GENDER 
+		</div>
+		<div class="fields "> 
+			Male<input type="radio" name="male" value="male"> 
+			Female<input type="radio" name="female" value="female">
+		</div>
+
+		<div class="labels">ADDRESS
+		</div>
+		<div class="fields">
+			 <textarea rows="6" cols="50"></textarea>
+		</div>
+		
+		 
+		<div class="labels">CITY
+		</div>
+		<div class="fields">
+			<input type="text" name="city" placeholder="Enter city name"><span class="extra">(max 30 character a-z and A-Z)</span>
+		</div>
+			
+	
+		<div class="labels">PIN CODE
+		</div>
+		<div class="fields">
+			<input type="text" name="pin" placeholder="Enter pincode"><span class="extra">(6 digit number)</span>
+		</div>
+		
+		<div class="labels">STATE
+		</div>
+		<div class="fields">
+			<input type="text" name="state" placeholder="Enter state"><span class="extra">(max 30 character a-z and A-Z)</span>
+		</div>
+	
+			
+		<div class="labels">COUNTRY
+		</div>
+		<div class="fields">
+			<input type="text" name="country" placeholder="Enter country">
+		</div>	
+
+		<div class="labels">HOBBIES
+		</div>
+		<div class="fields ">
+			<span class="smalltext">
+		    Drawing<input type="checkbox" name="drawing">Singing<input type="checkbox" name="singing" value="singing">Dancing<input type="checkbox" name="dancing" value="dancing">Sketching<input type="checkbox" name="Sketching" value="Sketching">
+		    </span>
+		</div>
+
+		<div class="labels">
+		</div>
+		<div class="fields smalltext">   
+		Others<input type="checkbox" name="other" value="other"><input type="text" name="other">
+		</div> 
+
+		<div class="labels" >QUALIFICATION
+		</div>
+		<div class="fields" >
+		<table style="text-align: center">
+		<tr style="font-weight: bold;font-size: 10px; " >
+			<td >SI.No</td>
+			<td> Examination</td>
+			<td>Board</td>
+			<td>Percent</td>
+			<td>Year of Passing</td>
+		</tr>
+		<tr>
+			<td><span class="smalltext">1</span></td>
+			<td><span class="smalltext">Class X</span></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+		</tr>	
+		<tr>
+			<td><span class="smalltext">2</span></td>
+			<td><span class="smalltext">Class XII</span></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+			
+		</tr>
+		<tr>
+			<td><span class="smalltext">3</span></td>
+			<td><span class="smalltext">GRADUATION</span></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+		</tr>
+		<tr>
+			<td><span class="smalltext">4</span></td>
+			<td><span class="smalltext">MASTERS</span></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+			<td><input type="text" name="a" size=5></td>
+		</tr>
+		<tr >
+			<td></td>
+			<td></td>
+			<td><span class="extra">(10 char max)</span></td>
+			<td><span class="extra">(upto 2 decimal)</span></td>
+			<td></td>
+		</tr>
+	    </table>
+	</div>
+
+	<div class="labels" >COURSES <br>APPLIED FOR
+		</div>
+		<div class="fields courses"> 
+			BCA<input type="radio" name="bca" value="bca">B.com <input type="radio" name="bcom" value="female">B.A <input type="radio" name="ba" value="ba">
+		</div>
+		
+		
+	<div style="width: 30%;float: left;display: inline-block;margin: 1px">
+		<input type="submit" name="submit" value="submit" style="float: right;" >
+	</div>
+	<div >
+		<input type="reset" name="reset" value="reset">
+	</div>
+		
+		
+	
+	
+		
+		
+		
+
+</form>
+</fieldset>
+<br><br>
+
+</body>
+</html>

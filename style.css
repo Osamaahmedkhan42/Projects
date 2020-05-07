@@ -1,0 +1,27 @@
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.isize{
+    width: 300px;
+    height: 100px;
+}
+.header{
+    background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+.card{
+    margin-right: 20px;margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .card {
+        margin-bottom: 10px;
+      
+    }
+  }
