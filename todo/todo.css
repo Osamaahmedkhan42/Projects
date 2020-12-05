@@ -1,0 +1,23 @@
+.heading{
+    color:blue;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: 2px;
+    color: white;
+    padding: 5px ;
+    margin: 5px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  li{
+      font-size: 25px;
+  }
+
+body {
+    background-color: yellow;
+}
